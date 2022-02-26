@@ -7,6 +7,10 @@
 
 > Este projeto foi desenvolvido baseado em um desafio do https://www.frontendmentor.io/challenges. Eu realizei a criação de um calculador de gorgeta utilizando HTML, CSS e JAVASCRIPT
 
+### Acesse o meu projeto
+
+https://eloquent-kalam-a4b615.netlify.app/
+
 ### Ajustes e melhorias
 
 O Projeto será refeito em REACT JS futuramente quando eu começar a ter contato com esse framework.
