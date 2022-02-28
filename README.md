@@ -9,7 +9,7 @@
 
 ### Acesse o meu projeto
 
-https://eloquent-kalam-a4b615.netlify.app/
+https://calcular-gorgeta-frontend.netlify.app/
 
 ### Ajustes e melhorias
 
