@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcular Gorgeta</title>
     <link href="/assets/css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e1ed7f9b5c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/55ee65c954.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <div>
     <h1>Calculador <br>de<br> Gorgeta</h1>
-    
+    </div>
+
     <main class="container-primario">
-        <h3 class="titleh3">Conta</h3>
+    <div class="container-valores">
+        <h2 class="titleh3">Conta</h3>
         <div class="valueLessThanZero"></div>
         <i class="fa-solid fa-dollar-sign"></i>
         <input type="number" class="conta-input" placeholder="0" step="0.01">
         <h4>Selecione a porcentagem %</h4>
         <div class="btn-container-firstLine">
-        <button type="button" class="btn-5 porcent">5%</button>
-        <button type="button" class="btn-10 porcent">10%</button>
-        <button type="button" class="btn-15 porcent">15%</button>
-    </div>
+         <button type="button" class="btn-5 porcent">5%</button>
+         <button type="button" class="btn-10 porcent">10%</button>
+         <button type="button" class="btn-15 porcent">15%</button>
+        </div>
 
     <div class="btn-container-secondLine">
         <button type="button" class="btn-25 porcent">25%</button>
@@ -31,26 +35,35 @@
     
     <div class="container-people">
 
-        <h3 class="titleh3 peopleNumber">Número de Pessoas</h3>
+        <h2 class="titleh3 peopleNumber">Número de Pessoas</h3>
         <div class="valueLessThanZero"></div>
         <i class="fa-solid fa-person"></i>
         <input type="number"  class="people-input" placeholder="0">
     </div>
+        </div>
 
     <!-- Segundo Container 'Resultado dos valores'-->
     <section class="second-container">
-        <div class="first-section">
-        <h3 class="titleh3 value">Valor da gorgeta</h3>
-        <div class="valor-total-first">$0.00</div>
-        <p class="person">/ por pessoa</p>
-        </div>
+     <div class="second-container-div">
+            <div class="first-section">
+                <h3 class="titleh3 value">Valor da gorgeta</h3>
+                <div class="item-second-container">
+                     <p class="person">/ por pessoa</p>
+                    <span class="valor-total-first">$0.00</span>
+                </div>
+            </div>
+            
+            
 
         <div class="second-section">
         <h3 class="titleh3 total">Total</h3>
-        <div class="valor-total">$0.00</div>
+        <div class="item-second-container">
         <p class="person">/ por pessoa</p>
+        <div class="valor-total">$0.00</div>
+        </div>
         <button class="btn-reset">RESETAR</button>
         </div>
+     </div>
     </section>
     </main>
 
